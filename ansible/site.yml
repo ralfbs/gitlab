@@ -10,13 +10,14 @@
 
   become: yes
 
-
+  roles:
+  - common
+  - geerlingguy.firewall
+  - geerlingguy.gitlab
 
 
 - hosts: local
 
   become: yes
 
-  roles:
-  - common
-  - geerlingguy.gitlab
+

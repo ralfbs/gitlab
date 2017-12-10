@@ -27,10 +27,6 @@ Alsdann:
 oder
 `ansible-playbook ansible/typo3.yml -i ansible/inventories/prod/hosts`
 
-
-# Todo
-- php7.1.load (Apache modul kann nicht aktiviert werden. Ggf. vorher laden?
-
 ## Anpassen der Roles
 - Die meisten Roles definieren Vorgaben in defaults. Diese können pro Host / Gruppe angepasst werden:
 Kopieren der Werte in eine der Dateien in group_vars.
