@@ -1,0 +1,4 @@
+[prod]
+vantourer.de ansible_ssh_user=web67004
+stage.vantourer.de ansible_ssh_user=web67005
+
